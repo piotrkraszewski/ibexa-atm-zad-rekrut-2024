@@ -1,0 +1,17 @@
+.atm-button {
+  width: 80px;
+  height: 80px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #006aff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #0048b3;
+  }
+}
